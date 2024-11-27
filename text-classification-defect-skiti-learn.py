@@ -71,3 +71,7 @@ predictions = pipeline.predict(new_defects)
 print("\nPredictions for New Defects:")
 for defect, category in zip(new_defects, predictions):
     print(f"Defect: {defect} => Predicted Category: {category}")
+
+# Save the model
+import joblib
+joblib.dump(pipeline, "defect_classifier.pkl")
