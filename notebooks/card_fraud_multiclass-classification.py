@@ -7,7 +7,7 @@ from sklearn.metrics import classification_report, confusion_matrix
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-from notebooks.Bank_classification_Insurance import new_data
+
 
 # 1. Generate a Simulated Dataset
 np.random.seed(42)
