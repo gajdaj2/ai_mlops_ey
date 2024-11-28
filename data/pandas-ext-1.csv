@@ -1,0 +1,11 @@
+OrderID,Date,Customer,Product,Quantity,Price,City
+1,2023-01-15,John Doe,Laptop,1,1200,New York
+2,2023-01-16,Jane Smith,Smartphone,2,800,San Francisco
+3,2023-01-17,Emily Davis,Laptop,1,1300,Los Angeles
+4,2023-01-18,Chris Brown,Tablet,3,600,New York
+5,2023-01-19,John Doe,Smartphone,1,800,New York
+6,2023-01-20,Jane Smith,Smartwatch,2,200,San Francisco
+7,2023-01-21,Emily Davis,Tablet,1,600,Los Angeles
+8,2023-01-22,Chris Brown,Laptop,2,1100,New York
+9,2023-01-23,John Doe,Smartwatch,1,250,New York
+10,2023-01-24,Jane Smith,Tablet,3,500,San Francisco
