@@ -75,3 +75,13 @@ for defect, category in zip(new_defects, predictions):
 # Save the model
 import joblib
 joblib.dump(pipeline, "defect_classifier.pkl")
+
+from sklearn.utils import estimator_html_repr
+html = estimator_html_repr(pipeline)
+
+
+with open("pipeline_visualization.html", "w") as f:
+    f.write(html)
+
+from IPython.core.display import display, HTML
+display(HTML(html))
